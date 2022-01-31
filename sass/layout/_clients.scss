@@ -2,15 +2,12 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.team-title {
-  margin-bottom: 50px;
-}
-.clients-social-list {
+.clients-social__list {
   display: flex;
   justify-content: center;
   margin-left: -30px;
 }
-.clients-social-item {
+.clients-social__item {
   width: calc(100% / 6 - 30px);
   margin-left: 30px;
   & + & {
@@ -21,8 +18,8 @@
   width: 170px;
   height: 92px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -36,6 +33,6 @@
     border-radius: 4px;
   }
 }
-.clients-social-icon {
+.clients-social__icon {
   fill: currentColor;
 }
