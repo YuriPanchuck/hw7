@@ -834,6 +834,7 @@ body {
 
 .link-backgrong {
   background-color: rgba(255, 255, 255, 0.1);
+  color: var(--first-title-color);
 }
 
 .footer-four {
@@ -1046,6 +1047,7 @@ body {
 
 .link-backgrong {
   background-color: rgba(255, 255, 255, 0.1);
+  color: var(--first-title-color);
 }
 
 .footer-four {
