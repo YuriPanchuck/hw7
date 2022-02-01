@@ -20,13 +20,11 @@
   justify-content: center;
   margin-left: 10px;
 }
-.header-icon {
-  fill: #757575;
-}
+
 .header__item:not(:last-child) {
   margin-right: 50px;
 }
-.header-list {
+.header__list {
   display: flex;
 }
 .header__logo-first {
@@ -64,11 +62,12 @@
   // letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.header-svg {
+.header__svg {
   margin-right: 10px;
 }
 .header-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 .header__mail,
 .header__tel {
@@ -85,6 +84,6 @@
     fill: var(--accent-color);
   }
 }
-.header-connect {
+.header__connect {
   margin-left: auto;
 }

@@ -51,11 +51,11 @@ body {
   text-decoration: none;
 }
 
-.post-title {
+.post__title {
   text-align: center;
 }
 
-.align-left {
+.align__left {
   text-align: left;
 }
 
@@ -63,12 +63,12 @@ body {
   color: var(--third-title-color);
 }
 
-.header__container, .hero-title, .hero-social__link {
+.header__container, .hero__title, .hero-social__link {
   display: flex;
   align-items: center;
 }
 
-.visually-hidden {
+.visually__hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -369,7 +369,7 @@ body {
   margin-left: 5px;
 }
 
-.hero-pre-title {
+.hero-pre__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -380,14 +380,14 @@ body {
   margin-bottom: 10px;
 }
 
-.hero-after-title {
+.hero-after__title {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
 
-.team-social-list {
+.team-social__list {
   display: flex;
   justify-content: center;
 }
@@ -413,7 +413,7 @@ body {
   color: var(--first-title-color);
 }
 
-.social-icon {
+.social__icon {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
 }
@@ -440,15 +440,11 @@ body {
   margin-left: 10px;
 }
 
-.header-icon {
-  fill: #757575;
-}
-
 .header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-list {
+.header__list {
   display: flex;
 }
 
@@ -491,12 +487,13 @@ body {
   color: var(--accent-color);
 }
 
-.header-svg {
+.header__svg {
   margin-right: 10px;
 }
 
 .header-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 
 .header__mail,
@@ -516,7 +513,7 @@ body {
   fill: var(--accent-color);
 }
 
-.header-connect {
+.header__connect {
   margin-left: auto;
 }
 
@@ -534,7 +531,7 @@ body {
   top: 80px;
 }
 
-.hero-title {
+.hero__title {
   box-sizing: content-box;
   max-width: 696px;
   font-size: 44px;
@@ -548,7 +545,7 @@ body {
   color: var(--first-title-color);
 }
 
-.hero-list {
+.hero__list {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -561,7 +558,7 @@ body {
   color: #afb1b8;
 }
 
-.hero-social-icon {
+.hero-social__icon {
   fill: currentColor;
 }
 
@@ -581,7 +578,7 @@ body {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -643,7 +640,7 @@ body {
   margin-bottom: 50px;
 }
 
-.team-name {
+.team__name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -652,7 +649,7 @@ body {
   color: var(--third-title-color);
 }
 
-.team-profession {
+.team__profession {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -671,22 +668,22 @@ body {
   margin-left: -30px;
 }
 
-.team-item {
+.team__item {
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-name {
+.team__name {
   margin-bottom: 10px;
 }
 
-.team-profession {
+.team__profession {
   margin-bottom: 16px;
 }
 
-.team-item-content {
+.team-item__content {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
@@ -707,7 +704,7 @@ body {
   margin-bottom: 50px;
 }
 
-.clients-social-list {
+.clients-social__list {
   display: flex;
   justify-content: center;
   margin-left: -30px;
@@ -741,7 +738,7 @@ body {
   border-radius: 4px;
 }
 
-.clients-social-icon {
+.clients-social__icon {
   fill: currentColor;
 }
 
@@ -755,11 +752,11 @@ body {
   display: flex;
 }
 
-.footer-first {
+.footer__first {
   margin-right: 70px;
 }
 
-.footer-list {
+.footer__list {
   width: 231px;
 }
 
@@ -795,11 +792,11 @@ body {
   color: var(--first-title-color);
 }
 
-.footer-light {
+.footer__light {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-light:hover, .footer-light:focus {
+.footer__light:hover, .footer__light:focus {
   color: var(--accent-color);
 }
 
@@ -811,11 +808,11 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-second {
+.footer__second {
   vertical-align: baseline;
 }
 
-.footer-third {
+.footer__third {
   vertical-align: baseline;
   margin-left: 93px;
 }
@@ -826,23 +823,23 @@ body {
   border-radius: 4px;
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
 }
 
-.link-backgrong {
+.link__backgrong {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--first-title-color);
 }
 
-.footer-four {
+.footer__four {
   vertical-align: baseline;
   margin-left: 12px;
 }
 
-.footer-title-first {
+.footer-title__first {
   margin-bottom: 36px;
 }
 
@@ -858,7 +855,7 @@ body {
   transition: border-color 500ms;
 }
 
-.footer-title {
+.footer__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -868,7 +865,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-social-icon-first {
+.footer-social-icon__first {
   fill: currentColor;
   margin-left: 10px;
 }
@@ -968,11 +965,11 @@ body {
   display: flex;
 }
 
-.footer-first {
+.footer__first {
   margin-right: 70px;
 }
 
-.footer-list {
+.footer__list {
   width: 231px;
 }
 
@@ -1008,11 +1005,11 @@ body {
   color: var(--first-title-color);
 }
 
-.footer-light {
+.footer__light {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-light:hover, .footer-light:focus {
+.footer__light:hover, .footer__light:focus {
   color: var(--accent-color);
 }
 
@@ -1024,11 +1021,11 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-second {
+.footer__second {
   vertical-align: baseline;
 }
 
-.footer-third {
+.footer__third {
   vertical-align: baseline;
   margin-left: 93px;
 }
@@ -1039,23 +1036,23 @@ body {
   border-radius: 4px;
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
 }
 
-.link-backgrong {
+.link__backgrong {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--first-title-color);
 }
 
-.footer-four {
+.footer__four {
   vertical-align: baseline;
   margin-left: 12px;
 }
 
-.footer-title-first {
+.footer-title__first {
   margin-bottom: 36px;
 }
 
@@ -1071,7 +1068,7 @@ body {
   transition: border-color 500ms;
 }
 
-.footer-title {
+.footer__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -1081,7 +1078,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-social-icon-first {
+.footer-social-icon__first {
   fill: currentColor;
   margin-left: 10px;
 }

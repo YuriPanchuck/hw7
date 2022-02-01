@@ -1,4 +1,4 @@
-.hero-pre-title {
+.hero-pre__title {
   @include font(14px, null, 1.14, 0.03em);
   font-weight: bold;
   // font-size: 14px;
@@ -9,7 +9,7 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.hero-after-title {
+.hero-after__title {
   @include font(14px, null, 1.71, 0.03em);
   // font-size: 14px;
   // line-height: 1.71;

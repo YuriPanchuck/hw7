@@ -6,10 +6,10 @@
 .footer__container {
   display: flex;
 }
-.footer-first {
+.footer__first {
   margin-right: 70px;
 }
-.footer-list {
+.footer__list {
   width: 231px;
 }
 .footer__link {
@@ -44,7 +44,7 @@
 .footer-logo__second {
   color: var(--first-title-color);
 }
-.footer-light {
+.footer__light {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -58,10 +58,10 @@
 .footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-second {
+.footer__second {
   vertical-align: baseline;
 }
-.footer-third {
+.footer__third {
   vertical-align: baseline;
   margin-left: 93px;
 }
@@ -75,21 +75,21 @@
   }
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
 }
-.link-backgrong {
+.link__backgrong {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--first-title-color);
 }
 
-.footer-four {
+.footer__four {
   vertical-align: baseline;
   margin-left: 12px;
 }
-.footer-title-first {
+.footer-title__first {
   margin-bottom: 36px;
 }
 .form__input {
@@ -103,7 +103,7 @@
   outline: none;
   transition: border-color 500ms;
 }
-.footer-title {
+.footer__title {
   font-weight: bold;
   @include font(14px, null, 1.14, 0.03em);
   // font-size: 14px;
@@ -113,7 +113,7 @@
   color: var(--btn-color);
   margin-bottom: 20px;
 }
-.footer-social-icon-first {
+.footer-social-icon__first {
   fill: currentColor;
   margin-left: 10px;
 }
