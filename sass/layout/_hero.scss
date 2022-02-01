@@ -47,12 +47,12 @@
   fill: currentColor;
 }
 
-.hero-item__list {
+.hero__item-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
 }
-.hero-item {
+.hero__item {
   width: calc(100% / 4 - 30px);
   margin-right: 30px;
 }

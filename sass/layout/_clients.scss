@@ -2,19 +2,29 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-social__list {
+.clients__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--third-title-color);
+  margin-bottom: 50px;
+}
+.clients-social-list {
   display: flex;
   justify-content: center;
   margin-left: -30px;
 }
-.clients-social__item {
+.clients__item {
   width: calc(100% / 6 - 30px);
   margin-left: 30px;
   & + & {
     margin-left: 30px;
   }
 }
-.clients-social-link {
+.clients__link {
   width: 170px;
   height: 92px;
   display: flex;
@@ -33,6 +43,6 @@
     border-radius: 4px;
   }
 }
-.clients-social__icon {
+.clients-social-icon {
   fill: currentColor;
 }
